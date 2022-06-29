@@ -1,0 +1,49 @@
+body {
+  background-image: url('img/wallpaperbetter\(6\).jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+h1,.input{
+  font-family: 'Parisienne', cursive;
+}
+
+h1 {
+  margin:2rem 0;
+  text-transform: capitalize;  
+  font-size: 7rem;
+  text-align: center;
+}
+
+.input {
+  font-size: 25px;
+  width: 90%;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+img {
+  display: inline-block;
+  width: 3rem;
+  padding-right: 1rem;
+}
+
+#container {
+  margin-top: 2rem;
+  background-color: rgba(138, 91, 126, 0.637);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.item {
+  margin-bottom: 1rem;
+}
+#container .item-input {
+  width: 85%;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(252, 252, 252);
+}
