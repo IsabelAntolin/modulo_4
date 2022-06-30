@@ -3,47 +3,88 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%
+  background-size: 100% 100%;
+  text-align: center;
 }
 
-h1,.input{
+h1,
+.input {
   font-family: 'Parisienne', cursive;
 }
 
 h1 {
-  margin:2rem 0;
-  text-transform: capitalize;  
+  margin: 2rem 0;
+  text-transform: capitalize;
   font-size: 7rem;
   text-align: center;
 }
 
+img{
+  width: 40px;
+}
+
+/********************************************************/
+.input-div {
+  display: flex;
+}
+
 .input {
-  font-size: 25px;
-  width: 90%;
+  font-size: 24px;
+  width: 80%;
+  height: 50px;
+  margin-right: 10px;
   border: none;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: white;
+
+  padding-left: 24px;
 }
 
-img {
-  display: inline-block;
-  width: 3rem;
-  padding-right: 1rem;
-}
-
+/*************************************************/
 #container {
   margin-top: 2rem;
   background-color: rgba(138, 91, 126, 0.637);
   padding: 1rem;
   border-radius: 1rem;
+  width: 80%;
 }
+
 .item {
   margin-bottom: 1rem;
 }
+
 #container .item-input {
   width: 85%;
   border: none;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   background-color: rgb(252, 252, 252);
+}
+
+/************************************************************/
+.boton-agregar {
+  color: rgb(18, 19, 19);
+  font-size: 40px;
+  padding-top: 4px;
+  display: flex;
+  text-decoration: none;
+}
+
+.boton-agregar:hover {
+  opacity: 0.9;
+}
+/********************************************/
+
+.boton-editar{
+  display: inline-block;
+  color: rgb(30, 170, 172);
+  font-size:28px; 
+  text-decoration: none;
+  margin: 0  3px;
+}
+
+.boton-remover{
+  color: rgb(120, 18, 22);
+  font-size: 28px;  
+  text-decoration: none;
 }
