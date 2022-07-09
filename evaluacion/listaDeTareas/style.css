@@ -1,0 +1,93 @@
+body {
+  background-image: url('img/fondo3.jpg'); 
+  background-position: center center;
+  background-size: cover; 
+}
+.contenedor{
+  width: 60%;  
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  font-family: 'Parisienne', cursive;
+  margin: 2rem 0;
+  text-transform: capitalize;
+  font-size: 7rem;
+  text-align: center;
+}
+img {
+  width: 40px;
+  margin-right: 1.5rem;
+}
+/********************************************************/
+
+#container {  
+  background-color: rgba(222, 197, 215, 0.17);  
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 2rem 0 2rem 1rem ;
+}
+/*************************************************/
+.item {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.item-input {  
+  width: 75%;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  outline: none; 
+  
+}
+.input {
+  /* width: 450px; */
+  width: 93%;  
+  height: 50px;
+  margin: 5px;
+  padding-top: 0 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+  
+}
+.input-div {
+  display: flex;
+}
+/************Botones*************************/
+.boton-remover {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;  
+  background: none;
+  color: rgb(223, 70, 75);
+  font-size: 20px;
+}
+.boton-editar {
+  margin: 0 5px;
+  border: none;
+  background: none;
+  color: #62d0ff;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+}
+.boton-agregar {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(245, 41, 41);
+  color: white; 
+}
+.boton-agregar:hover {
+  opacity: 0.9;  
+}
