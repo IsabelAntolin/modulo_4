@@ -1,90 +1,93 @@
 body {
-  background-image: url('img/wallpaperbetter\(6\).jpg');
+  background-image: url('img/fondo3.jpg'); 
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  text-align: center;
+  background-size: cover; 
 }
-
-h1,
-.input {
-  font-family: 'Parisienne', cursive;
+.contenedor{
+  width: 60%;  
+  margin: 0 auto;
 }
-
 h1 {
+  color: white;
+  font-family: 'Parisienne', cursive;
   margin: 2rem 0;
   text-transform: capitalize;
   font-size: 7rem;
   text-align: center;
 }
-
-img{
+img {
   width: 40px;
+  margin-right: 1.5rem;
 }
-
 /********************************************************/
-.input-div {
+
+#container {  
+  background-color: rgba(222, 197, 215, 0.17);  
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 2rem 0 2rem 1rem ;
+}
+/*************************************************/
+.item {
+  margin-bottom: 10px;
   display: flex;
 }
 
-.input {
-  font-size: 24px;
-  width: 80%;
+.item-input {  
+  width: 75%;
   height: 50px;
-  margin-right: 10px;
+  padding: 0 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  outline: none; 
+  
+}
+.input {
+  /* width: 450px; */
+  width: 93%;  
+  height: 50px;
+  margin: 5px;
+  padding-top: 0 20px;
   border: none;
   border-radius: 10px;
   background-color: white;
-
-  padding-left: 24px;
+  font-size: 18px;
+  
 }
-
-/*************************************************/
-#container {
-  margin-top: 2rem;
-  background-color: rgba(138, 91, 126, 0.637);
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 80%;
-}
-
-.item {
-  margin-bottom: 1rem;
-}
-
-#container .item-input {
-  width: 85%;
-  border: none;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: rgb(252, 252, 252);
-}
-
-/************************************************************/
-.boton-agregar {
-  color: rgb(18, 19, 19);
-  font-size: 40px;
-  padding-top: 4px;
+.input-div {
   display: flex;
-  text-decoration: none;
 }
-
+/************Botones*************************/
+.boton-remover {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;  
+  background: none;
+  color: rgb(223, 70, 75);
+  font-size: 20px;
+}
+.boton-editar {
+  margin: 0 5px;
+  border: none;
+  background: none;
+  color: #62d0ff;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+}
+.boton-agregar {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(245, 41, 41);
+  color: white; 
+}
 .boton-agregar:hover {
-  opacity: 0.9;
-}
-/********************************************/
-
-.boton-editar{
-  display: inline-block;
-  color: rgb(30, 170, 172);
-  font-size:28px; 
-  text-decoration: none;
-  margin: 0  3px;
-}
-
-.boton-remover{
-  color: rgb(120, 18, 22);
-  font-size: 28px;  
-  text-decoration: none;
+  opacity: 0.9;  
 }
